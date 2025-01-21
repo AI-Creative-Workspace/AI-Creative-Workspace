@@ -1,0 +1,86 @@
+# Ignore node modules and dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build output
+build/
+dist/
+out/
+.cache/
+.next/
+coverage/
+public/build/
+
+# Editor settings
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Python virtual environment
+venv/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+
+# AI agent model files and checkpoints
+ai_agent/model/*.h5
+ai_agent/model/*.pkl
+ai_agent/training_data/*.csv
+ai_agent/training_data/*.json
+ai_agent/training_data/*.npz
+
+# Database files
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+
+# Backend cache and temporary files
+backend/cache/
+backend/__pycache__/
+backend/migrations/
+
+# Smart contracts artifacts and build files
+smart_contracts/artifacts/
+smart_contracts/cache/
+smart_contracts/deployments/
+
+# Test and debugging files
+test-output/
+coverage/
+test-reports/
+
+# Ignore IDE and system-specific files
+*.swp
+*.swo
+*~
